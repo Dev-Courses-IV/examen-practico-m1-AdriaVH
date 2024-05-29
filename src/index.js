@@ -36,7 +36,7 @@ age.innerText=`${e.age} anys`
 container.appendChild(age)
 
 
-container.classList.add("shadow","px-4","rounded-xl","bg-emerald-300")
+container.classList.add("shadow","w-40","px-4","rounded-xl","bg-emerald-300")
 
 })
 
