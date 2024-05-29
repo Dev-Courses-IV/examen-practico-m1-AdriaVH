@@ -24,14 +24,17 @@ printButton.addEventListener("click", function(event){
   event.preventDefault
 
 students.map((e)=> {
+  const container  =document.createElement("div")
   const name = document.createElement("li")
 
   name.innerText=e.name
-studentList.appendChild(name)
+studentList.appendChild(container)
+container.appendChild(name)
 const age = document.createElement("li")
 
-age.innerText=e.age
-studentList.appendChild(age)
+age.innerText=`${e.age} anys`
+container.appendChild(age)
+container.classList.add("shadow","g-y-40","rounded-xl")
 
 })
 
