@@ -34,7 +34,9 @@ const age = document.createElement("li")
 
 age.innerText=`${e.age} anys`
 container.appendChild(age)
-container.classList.add("shadow","g-y-40","rounded-xl")
+
+
+container.classList.add("shadow","px-4","rounded-xl","bg-emerald-300")
 
 })
 
